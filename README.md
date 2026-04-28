@@ -19,12 +19,13 @@ One-time setup:
 2. In the repo, go to **Settings → Pages**.
 3. Under **Build and deployment → Source**, select **GitHub Actions**.
 4. Push to `main` (or run the workflow manually). The site will be available at
-   `https://<your-username>.github.io/<repo-name>/`.
+   `https://vadim-uvarov.github.io/`.
 
 ### Notes
 
-- `vite.config.ts` uses `base: "./"` so the build works both at `https://<user>.github.io/<repo>/`
-  and on a custom / root domain — no changes needed.
+- This is a user GitHub Pages site (repo named `vadim-uvarov.github.io`), served from the root.
+  `vite.config.ts` uses `base: "/"` so asset URLs resolve correctly at the domain root.
+  If you ever deploy this to a project repo (served at `/<repo>/`), change `base` to `"/<repo>/"`.
 - `public/404.html` provides the standard SPA fallback so deep links and refreshes work on GitHub
   Pages.
 - The CV is served as a static file from `public/CV_Vadim_Uvarov_2025.pdf`.
