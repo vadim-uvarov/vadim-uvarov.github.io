@@ -28,4 +28,4 @@ One-time setup:
   If you ever deploy this to a project repo (served at `/<repo>/`), change `base` to `"/<repo>/"`.
 - `public/404.html` provides the standard SPA fallback so deep links and refreshes work on GitHub
   Pages.
-- The CV is served as a static file from `public/CV_Vadim_Uvarov_2025.pdf`.
+- The CV is served as a static file.
