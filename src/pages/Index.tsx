@@ -194,7 +194,7 @@ function Hero() {
             <Button asChild size="lg">
               <a href={CV_URL} target="_blank" rel="noreferrer noopener">
                 <Download className="mr-2 h-4 w-4" aria-hidden="true" />
-                Download CV (PDF)
+                Download CV
               </a>
             </Button>
             <Button asChild variant="outline" size="lg">
@@ -203,10 +203,16 @@ function Hero() {
                 LinkedIn
               </a>
             </Button>
+            <Button asChild variant="outline" size="lg">
+              <a href="https://github.com/vadim-uvarov" target="_blank" rel="noreferrer noopener" aria-label="GitHub" className="hover:text-foreground">
+                <Github className="h-4 w-4" />
+                Github
+              </a>
+            </Button>
             <Button asChild variant="ghost" size="lg">
               <a href={`mailto:${EMAIL}`}>
                 <Mail className="mr-2 h-4 w-4" aria-hidden="true" />
-                Get in touch
+                Contact
               </a>
             </Button>
           </div>
