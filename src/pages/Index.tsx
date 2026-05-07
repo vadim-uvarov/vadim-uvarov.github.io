@@ -122,7 +122,7 @@ const writingsAndTalks = [
   {
     title: "Street signs character recognition",
     description: "CNN pet project on Chars74k — 83% accuracy, top-14 in a Kaggle training competition.",
-    href: "https://github.com/long-johnson",
+    href: "https://github.com/vadim-uvarov/theano_ocr",
   },
   {
     title: "ResearchGate profile",
@@ -530,7 +530,7 @@ function Footer() {
           <a href={LINKEDIN} target="_blank" rel="noreferrer noopener" aria-label="LinkedIn" className="hover:text-foreground">
             <Linkedin className="h-4 w-4" />
           </a>
-          <a href="https://github.com/long-johnson" target="_blank" rel="noreferrer noopener" aria-label="GitHub" className="hover:text-foreground">
+          <a href="https://github.com/vadim-uvarov" target="_blank" rel="noreferrer noopener" aria-label="GitHub" className="hover:text-foreground">
             <Github className="h-4 w-4" />
           </a>
           <a href={`mailto:${EMAIL}`} aria-label="Email" className="hover:text-foreground">
