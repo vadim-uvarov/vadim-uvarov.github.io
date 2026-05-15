@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const EMAIL = "uvarov.vadim42@gmail.com";
 const LINKEDIN = "https://www.linkedin.com/in/vadim-uvarov/";
-const CV_URL = `${import.meta.env.BASE_URL}CV_Vadim_Uvarov_2026_M.pdf`;
+const CV_URL = `${import.meta.env.BASE_URL}${encodeURI("CV Vadim Uvarov 2026.pdf")}`;
 
 const navItems = [
   { href: "#about", label: "About" },
